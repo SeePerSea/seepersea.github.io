@@ -17,17 +17,15 @@ dt {
    font-weight: bold;
  }
 
- dd {
-   margin: 0 0 0 110px;
-   padding: 0 0 0.5em 0;
- }
+dd {
+  margin: 0 0 0 110px;
+  padding: 0 0 0.5em 0;
+}
 
 .anchor {
   padding-top: 3.5rem;
   margin-top: -3.5rem;
 }
-
-
 
 .fakelink {
   color: rgb(40, 80, 255);

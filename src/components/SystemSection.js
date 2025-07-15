@@ -19,8 +19,8 @@ export default function SystemSection() {
     const closeModal = () => setModalImg(null)
 
     return (
-      <div className="system-section-bg">
-        <h2 id="system" className="system-section-title">System</h2>
+      <div className="system-section-bg" id="system">
+        <h2 className="system-section-title">System</h2>
         <div className="system-images-row">
           {systems.map((system, index) => (
             <div key={index} className="system-image-col">

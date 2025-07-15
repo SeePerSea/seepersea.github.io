@@ -17,16 +17,25 @@ export default function Navbar() {
   const handleNavClick = (e, href) => {
     e.preventDefault()
     setIsOpen(false)
-    const el = document.querySelector(href)
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' })
+    if (href === '#seepersea') {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } else if (href === '#download') {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+    } else {
+      const el = document.querySelector(href)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
     }
   }
 
   return (
     <nav className="navbar custom-navbar navbar-margin">
       <div className="navbar-brand">
-        <a href="#seepersea" className="brand-link">
+        <a href="#seepersea" className="brand-link" onClick={e => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }}>
           SeePerSea Dataset
         </a>
         <button

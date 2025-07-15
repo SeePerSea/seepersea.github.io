@@ -11,8 +11,8 @@ export default function FormatSection() {
     }
     const closeModal = () => setModalImg(null)
     return (
-      <div className="system-section-bg">
-        <h2 id="format" className="system-section-title">Format</h2>
+      <div className="system-section-bg" id="format">
+        <h2 className="system-section-title">Format</h2>
         <div className="system-images-row">
           <div className="system-image-col format-image-col-full">
             <div className="system-image-card">

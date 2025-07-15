@@ -787,3 +787,13 @@ h2 {
     font-size: 1rem;
   }
 }
+
+#system {
+  scroll-margin-top: 120px;
+}
+#sequence {
+  scroll-margin-top: 120px;
+}
+#format {
+  scroll-margin-top: 120px;
+}

@@ -22,8 +22,8 @@ export default function SequenceSection() {
     const closeModal = () => setModalImg(null)
 
     return (
-      <div className="system-section-bg">
-        <h2 id="sequence" className="system-section-title">Sequence</h2>
+      <div className="system-section-bg" id="sequence">
+        <h2 className="system-section-title">Sequence</h2>
         <div className="system-images-row">
           {sequences.map((sequence, index) => (
             <div key={index} className="system-image-col">

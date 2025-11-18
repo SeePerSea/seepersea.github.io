@@ -13,14 +13,17 @@ export default function InfoSection() {
         <div className="bibtexref jeong2024multi bd-code-snippet" style={{ display: 'block' }}>
           <div className="highlight">
             <pre className="citation-block">
-{`@article{jeong2024multi,
-    title={Multi-modal Perception Dataset of In-water Objects for Autonomous Surface Vehicles},
-    author={Jeong, Mingi and Chadda, Arihant and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Roznere, 
-        Monika and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel 
-        and Alberto Quattrini Li},
-    journal={arXiv preprint arXiv:2404.18411},
-    year={2024}
-    }`}
+{`@ARTICLE{jeong2025-seepersea,
+  author={Jeong, Mingi and Chadda, Arihant and Ren, Ziang and Zhao, Luyang and Liu, Haowen and Zhang, Aiwei and Jiang, Yitao and Achong, Sabriel and Lensgraf, Samuel and Roznere, Monika and Li, Alberto Quattrini},
+  journal={IEEE Transactions on Field Robotics}, 
+  title={SeePerSea: Multimodal Perception Dataset of In-Water Objects for Autonomous Surface Vehicles}, 
+  year={2025},
+  volume={2},
+  number={},
+  pages={737-752},
+  keywords={Laser radar;Cameras;Sensors;Object detection;Robot vision systems;Radar tracking;Navigation;Global Positioning System;Calibration;Training;Autonomous surface vehicle (ASV);maritime perception;multimodal dataset;obstacle classification;obstacle detection;situational awareness},
+  doi={10.1109/TFR.2025.3602937}}
+`}
             </pre>
           </div>
         </div>
@@ -30,6 +33,10 @@ export default function InfoSection() {
         <dl className="newslist">
           <dt>2024.12.07</dt>
           <dd>The SeePerSea dataset goes online.</dd>
+        </dl>
+        <dl className="newslist">
+          <dt>2025.08.13</dt>
+          <dd>Our paper was accepted to IEEE <a href="https://ieeexplore.ieee.org/document/11142348/" target="_blank" rel="noopener noreferrer">T-FR</a> and available online.</dd>
         </dl>
       </div>
       <div className="row">
